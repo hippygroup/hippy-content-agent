@@ -3,7 +3,6 @@ import { Upload, Sparkles, Calendar,  Settings, AlertCircle } from 'lucide-react
 
 export default function HippyContentAgent() {
   const [activeTab, setActiveTab] = useState('generator');
-  const [imageFile, setImageFile] = useState(null);
   const [imagePreview, setImagePreview] = useState(null);
   const [productDescription, setProductDescription] = useState('');
   const [generating, setGenerating] = useState(false);
