@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Upload, Sparkles, Calendar, BookOpen, Settings, AlertCircle } from 'lucide-react';
+import { Upload, Sparkles, Calendar,  Settings, AlertCircle } from 'lucide-react';
 
 export default function HippyContentAgent() {
   const [activeTab, setActiveTab] = useState('generator');
